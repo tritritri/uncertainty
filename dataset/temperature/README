@@ -1,0 +1,11 @@
+Place code 
+==========
+- LFPO = Paris Orly, France
+- LFPG = Paris / Charles De Gaulle, France
+- LFPB = Paris Le Bourget, France (we actually do not use this because it contains more missing values than LFPO and LFPG)
+- LFLY = Lyon Bron, France
+- LFML = Marseille, France
+- LFQQ = Lille, France
+- LFRS = Nantes, France
+- LFBD = Bordeaux, France
+

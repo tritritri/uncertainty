@@ -2,10 +2,26 @@ Place code
 ==========
 - LFPO = Paris Orly, France
 - LFPG = Paris / Charles De Gaulle, France
-- LFPB = Paris Le Bourget, France (we actually do not use this because it contains more missing values than LFPO and LFPG)
 - LFLY = Lyon Bron, France
+- LFLL = Lyon Satolas, France
 - LFML = Marseille, France
 - LFQQ = Lille, France
 - LFRS = Nantes, France
 - LFBD = Bordeaux, France
+
+For the main dataset, 
+- we aggregate the temperature of the cities by weighted averaging, proportitional to their annual energy consumption. 
+
+    France Region
+  1 Ile-de-France               (Paris)     69k GWh 	
+  2 Rhône-Alpes                 (Lyon) 		  65k GWh
+  3 Provence-Alpes-Côte-d'Azur  (Marseille) 38k GWh
+  4 Nord-Pas-de-Calais          (Lille)     35k GWh
+  5 Pays-de-la-Loire            (Nantes)    24k GWh
+  6 Aquitaine                   (Bordeaux)  22.5k GWh
+  see also: 
+    http://www.rte-france.com/uploads/Mediatheque_docs/vie_systeme/annuelles/Statistiques_energie_electrique/an/statistiques_annuelles_2010_an.pdf
+
+- to compute the temperature of Paris, we average both, LFPO and LFPG
+- to compute the temperature of Lyon, we average both, LFLY and LFLL
 

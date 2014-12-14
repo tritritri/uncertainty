@@ -1,6 +1,6 @@
 Forecasting Uncertainty in Electricity Demand
 ===========
-This is a repository which contains the dataset of paper "Forecasting Uncertainty in Electricity Demand" published in AAAI15 workshop on Computational Sustainability. 
+This is a repository which contains the dataset of paper [Forecasting Uncertainty in Electricity Demand](http://infoscience.epfl.ch/record/203769) published in AAAI15 workshop on Computational Sustainability. 
 
 <b>Main Dataset</b><br>
 The dataset we use is in <code>dataset/rte-2003-2012.dat</code>

@@ -3,7 +3,7 @@ Forecasting Uncertainty in Electricity Demand
 This is a repository which contains the dataset of paper [Forecasting Uncertainty in Electricity Demand](http://infoscience.epfl.ch/record/203769) published in AAAI15 workshop on Computational Sustainability. 
 
 <b>Main Dataset</b><br>
-The dataset we use is in <code>dataset/rte-2003-2012.dat</code>
+The dataset we use is located in <code>dataset/rte-2003-2012.dat</code>
 
 <b>Temperature Data</b><br>
 Additionally, there is also the temperature data that we crawled from www.wunderground.com.
